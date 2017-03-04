@@ -1,0 +1,13 @@
+select * from sailors###True
+select * from abc###False
+delete & qerqe###False
+select * from boats###True
+create table endiaferon (	pelatis varchar(255) constraint end_mesitis references pelates(at) on delete cascade,	spiti int not null,	imera timestamp not null,	primary key(pelatis,spiti)          )###True
+select * from endiaferon###True
+select * from endiaferon###True
+select * from endiaferon###True
+select * from endiaferon###True
+select * from endiaferon###True
+select * from endiaferon###True
+###False
+select * from agores###True
